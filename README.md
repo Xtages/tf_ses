@@ -18,15 +18,18 @@ No modules.
 
 | Name | Type |
 |------|------|
-| [aws_ses_domain_identity.xtages_dot_com](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/ses_domain_identity) | resource |
-| [aws_ses_email_identity.no_reply_at_xtages_dot_com](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/ses_email_identity) | resource |
+| [aws_ses_domain_identity.domain_identity](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/ses_domain_identity) | resource |
+| [aws_ses_email_identity.no_reply_email](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/ses_email_identity) | resource |
 
 ## Inputs
 
-No inputs.
+| Name | Description | Type | Default | Required |
+|------|-------------|------|---------|:--------:|
+| <a name="input_domain_identity"></a> [domain\_identity](#input\_domain\_identity) | Domain identity that SES will use to send emails | `any` | n/a | yes |
 
 ## Outputs
 
 | Name | Description |
 |------|-------------|
-| <a name="output_no_reply_at_xtages_dot_com_arn"></a> [no\_reply\_at\_xtages\_dot\_com\_arn](#output\_no\_reply\_at\_xtages\_dot\_com\_arn) | n/a |
+| <a name="output_no_reply_email_arn"></a> [no\_reply\_email\_arn](#output\_no\_reply\_email\_arn) | n/a |
+
