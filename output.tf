@@ -1,3 +1,3 @@
-output "no_reply_at_xtages_dot_com_arn" {
-  value = aws_ses_email_identity.no_reply_at_xtages_dot_com.arn
+output "no_reply_email_arn" {
+  value = aws_ses_email_identity.no_reply_email.arn
 }
